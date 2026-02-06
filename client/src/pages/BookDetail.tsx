@@ -10,7 +10,7 @@ const bookDetails: Record<number, any> = {
     title: 'El Susurro de la Conciencia',
     subtitle: 'El despertar',
     author: 'A. Arellano',
-    image: '/capa_elsusurrodelaconciencia.png',
+    image: '/livro.elsusurro.jpg', // ✅ CORRIGIDO
     rating: 4.8,
     reviews: 124,
     price: '$24.99',
@@ -33,7 +33,7 @@ const bookDetails: Record<number, any> = {
     title: 'El Poder de la Gratitud',
     subtitle: 'La integración, vivir despierto',
     author: 'A. Arellano',
-    image: '/capa_elpoderdelagratitud.jpg',
+    image: '/livro.elpoder.jpg', // ✅ CORRIGIDO
     rating: 4.9,
     reviews: 156,
     price: '$26.99',
@@ -56,7 +56,7 @@ const bookDetails: Record<number, any> = {
     title: 'El Universo Consciente',
     subtitle: 'La expansión, el regreso al Todo',
     author: 'A. Arellano',
-    image: '/capa_eluniversoconsciente.jpg',
+    image: '/livro.eluniverso.jpg', // ✅ CORRIGIDO
     rating: 4.7,
     reviews: 98,
     price: '$28.99',
@@ -127,7 +127,7 @@ export default function BookDetail() {
               <span className="font-semibold" style={{ color: '#4A403A' }}>Volver</span>
             </a>
           </Link>
-          <img src="/logo.png" alt="Fundación Lumen" className="h-8 w-auto" />
+          <img src="/logo.png" alt="Fundación Lumen" className="h-16 w-auto" />
         </div>
       </header>
 
