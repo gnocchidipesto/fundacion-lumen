@@ -27,7 +27,7 @@ export default function Contact() {
               href="mailto: created@fundacionlumen.com"
               className="text-foreground/60 hover:text-primary transition-colors font-light text-sm"
             >
-              info@fundacionlumen.com
+              created@fundacionlumen.com
             </a>
           </div>
 
@@ -69,7 +69,7 @@ export default function Contact() {
             Recibe actualizaciones sobre nuevos libros, eventos y reflexiones espirituales
           </p>
 
-          {/* AQUI ESTÃO AS MUDANÇAS */}
+          
           <form 
             action="https://formsubmit.co/created@fundacionlumen.com" 
             method="POST" 
