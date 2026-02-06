@@ -12,7 +12,8 @@ export default function Books() {
       id: 1,
       title: 'El Susurro de la Conciencia',
       subtitle: 'El Despertar',
-      image: '/capa_elsusurrodelaconciencia.png',
+      // CORREÇÃO: Nome do arquivo novo
+      image: '/livro.elsusurro.jpg',
       synopsis: `No es una voz nueva. Es la más antigua. Solo que habías olvidado cómo escucharla.
 
 En medio del ruido constante, las pantallas encendidas y la exigencia de ser siempre más, A. Arellano propone una pausa radical: silenciar el mundo para volver a escucharte. Esta obra entrelaza neurociencia, física cuántica, sabiduría ancestral y práctica contemplativa en un mapa dirigido a quienes intuyen que la conciencia no es un misterio… sino un recuerdo.
@@ -31,7 +32,8 @@ El susurro de la conciencia inaugura su Trilogía de la conciencia, una obra que
       id: 2,
       title: 'El Poder de la Gratitud',
       subtitle: 'La Integración',
-      image: '/capa.elpoderdelagratitud.png',
+      // CORREÇÃO: Nome do arquivo novo
+      image: '/livro.elpoder.jpg',
       synopsis: `No es un libro. Es un mapa. Uno que empieza en lo humano… y te lleva a lo eterno.
 
 A. Arellano construye una travesía que avanza paso a paso, con precisión y propósito, uniendo ciencia y espiritualidad para revelar una verdad olvidada: la gratitud no es solo una emoción, es una fuerza capaz de rediseñar tu manera de vivir.
@@ -52,7 +54,8 @@ El poder de la gratitud entrelaza física, neurociencia, mitología y sabiduría
       id: 3,
       title: 'El Universo Consciente',
       subtitle: 'La Expansión',
-      image: '/capa_eluniversoconsciente.png',
+      // CORREÇÃO: Nome do arquivo novo
+      image: '/livro.eluniverso.jpg',
       synopsis: `¿Y si no estuvieras dentro del universo… sino que el universo estuviera dentro de ti?
 
 Este libro cierra el ciclo revelando que no estamos separados del cosmos: somos su reflejo consciente.
@@ -83,7 +86,8 @@ Porque al final del viaje, ya no hay búsqueda. Solo hay reconocimiento. Y ese e
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <Link href="/">
             <a className="flex items-center gap-2">
-              <img src="/english.png" alt="Fundación Lumen" className="h-12 w-auto" />
+              {/* CORREÇÃO: Logo certa e tamanho maior (h-24) */}
+              <img src="/logo.png" alt="Fundación Lumen" className="h-24 w-auto object-contain" />
             </a>
           </Link>
           <Link href="/">
