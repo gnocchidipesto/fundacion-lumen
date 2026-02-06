@@ -400,7 +400,7 @@ export default function Home() {
               <div key={book.id} className="flex flex-col items-center">
                 {/* 3D Book Container */}
                 <div
-                  className="relative w-full h-80 mb-8 perspective"
+                  className="relative w-full h-96 mb-8 perspective"
                   style={{
                     transform: `rotateX(${bookRotation.x}deg) rotateY(${bookRotation.y}deg)`,
                     transformStyle: 'preserve-3d',
@@ -409,16 +409,16 @@ export default function Home() {
                 >
                   {/* Book Image */}
                   <div
-                    className="absolute inset-0 rounded-lg overflow-hidden shadow-2xl"
+                    className="absolute inset-0 rounded-lg overflow-hidden"
                     style={{
-                      background: `linear-gradient(135deg, rgba(194, 94, 62, 0.1) 0%, rgba(194, 94, 62, 0.05) 100%)`,
+                      background: 'transparent',
                       backfaceVisibility: 'hidden'
                     }}
                   >
                     <img
                       src={book.image}
                       alt={book.title}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
                     />
                   </div>
 
@@ -651,7 +651,7 @@ export default function Home() {
                 Contacto
               </h4>
               <p className="text-sm font-light" style={{ color: '#4A403A' }}>
-                info@fundacionlumen.com
+                created@fundacionlumen.com
               </p>
             </div>
           </div>
