@@ -17,7 +17,7 @@ export default function About() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <Link href="/">
             <a className="flex items-center gap-2 cursor-pointer">
-              <img src="/english.png" alt="Fundación Lumen" className="h-16 w-auto" />
+              <img src="/logo.png" alt="Fundación Lumen" className="h-24 w-auto object-contain" />
             </a>
           </Link>
           <Link href="/">
