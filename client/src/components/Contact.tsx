@@ -24,7 +24,7 @@ export default function Contact() {
             </div>
             <h3 className="font-serif font-semibold text-foreground mb-2">Email</h3>
             <a
-              href="mailto:info@fundacionlumen.com"
+              href="mailto: created@fundacionlumen.com"
               className="text-foreground/60 hover:text-primary transition-colors font-light text-sm"
             >
               info@fundacionlumen.com
@@ -38,10 +38,10 @@ export default function Contact() {
             </div>
             <h3 className="font-serif font-semibold text-foreground mb-2">Teléfono</h3>
             <a
-              href="tel:+34123456789"
+              href="tel:+5548998681376"
               className="text-foreground/60 hover:text-primary transition-colors font-light text-sm"
             >
-              +34 (123) 456-789
+              +55 (48) 99868-1376
             </a>
           </div>
 
@@ -52,7 +52,7 @@ export default function Contact() {
             </div>
             <h3 className="font-serif font-semibold text-foreground mb-2">Ubicación</h3>
             <p className="text-foreground/60 font-light text-sm">
-              Madrid, España
+              Florianópolis, Brasil
             </p>
           </div>
         </div>
