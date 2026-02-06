@@ -88,8 +88,7 @@ export default function Home() {
     }
   };
 
-  // --- CAPAS DOS LIVROS ATUALIZADAS ---
-  // Já configurei para os nomes que você me passou
+  // --- CAPAS DOS LIVROS ---
   const books = [
     {
       id: 1,
@@ -399,8 +398,9 @@ export default function Home() {
             {books.map((book, index) => (
               <div key={book.id} className="flex flex-col items-center">
                 {/* 3D Book Container */}
+                {/* PADRONIZAÇÃO AQUI: Tamanho fixo de 280x420px */}
                 <div
-                  className="relative w-full h-96 mb-8 perspective"
+                  className="relative w-[280px] h-[420px] mb-8 perspective mx-auto"
                   style={{
                     transform: `rotateX(${bookRotation.x}deg) rotateY(${bookRotation.y}deg)`,
                     transformStyle: 'preserve-3d',
@@ -409,7 +409,7 @@ export default function Home() {
                 >
                   {/* Book Image */}
                   <div
-                    className="absolute inset-0 rounded-lg overflow-hidden"
+                    className="absolute inset-0 rounded-lg overflow-hidden shadow-2xl"
                     style={{
                       background: 'transparent',
                       backfaceVisibility: 'hidden'
@@ -418,7 +418,7 @@ export default function Home() {
                     <img
                       src={book.image}
                       alt={book.title}
-                      className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
+                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     />
                   </div>
 
