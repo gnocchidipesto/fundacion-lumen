@@ -15,11 +15,17 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-sm z-50 border-b border-border">
       <div className="max-w-2xl mx-auto px-6 py-6 flex items-center justify-between">
-        {/* Logo */}
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-full border-2 border-primary flex items-center justify-center">
-            <div className="w-4 h-4 rounded-full bg-primary/20"></div>
-          </div>
+        
+        {/* LOGO ALTERADA AQUI */}
+        <div className="flex items-center gap-3">
+          {/* Imagem da Logo */}
+          <img 
+            src="/logo.png" 
+            alt="Logo Fundación Lumen" 
+            className="h-10 w-auto object-contain" 
+          />
+          
+          {/* Texto "Lumen". Se a sua imagem já tiver o nome escrito, você pode apagar esta linha abaixo: */}
           <span className="font-serif text-lg font-semibold text-foreground">Lumen</span>
         </div>
 
