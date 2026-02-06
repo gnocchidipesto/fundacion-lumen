@@ -63,7 +63,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <Link href="/">
             <a className="flex items-center gap-2">
-              <img src="/logo.png" alt="Fundación Lumen" className="h-8 w-auto" />
+              <img src="/logo.png" alt="Fundación Lumen" className="h-16 w-auto" />
             </a>
           </Link>
           <Link href="/">
