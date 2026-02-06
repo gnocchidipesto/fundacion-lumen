@@ -638,10 +638,21 @@ export default function Home() {
                 Síguenos
               </h4>
               <div className="flex gap-4">
-                <a href="#" className="hover:opacity-70 transition-opacity">
+                {/* AQUI ESTAVAM OS LINKS FALTANDO */}
+                <a 
+                  href="https://instagram.com/fundacionlumen" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:opacity-70 transition-opacity"
+                >
                   <Instagram size={20} style={{ color: '#C25E3E' }} />
                 </a>
-                <a href="#" className="hover:opacity-70 transition-opacity">
+                <a 
+                  href="https://tiktok.com/@f.lumen" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:opacity-70 transition-opacity"
+                >
                   <Music size={20} style={{ color: '#C25E3E' }} />
                 </a>
               </div>
