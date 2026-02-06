@@ -606,61 +606,52 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer
+     <footer
         className="py-12 px-4 md:px-8 border-t"
         style={{ backgroundColor: '#FFF9F3', borderColor: '#E8DFD3' }}
       >
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
-              <img src="/logo.png" alt="Fundación Lumen" className="h-8 w-auto mb-4" />
-              <p
-                className="text-sm font-light"
-                style={{ color: '#4A403A' }}
-              >
+              <img src="/logo.png" alt="Fundación Lumen" className="h-12 w-auto mb-4" />
+              <p className="text-sm font-light" style={{ color: '#4A403A' }}>
                 Iluminando caminos hacia la conciencia
               </p>
             </div>
             <div>
-              <h4 className="font-bold mb-4" style={{ color: '#4A403A' }}>
-                Navegación
-              </h4>
+              <h4 className="font-bold mb-4" style={{ color: '#4A403A' }}>Navegación</h4>
               <ul className="space-y-2 text-sm font-light" style={{ color: '#4A403A' }}>
                 <li><Link href="/"><a className="hover:underline">Inicio</a></Link></li>
-                <li><a href="#nosotros" className="hover:underline">Nosotros</a></li>
+                <li><Link href="/nosotros"><a className="hover:underline">Nosotros</a></Link></li>
                 <li><Link href="/libros"><a className="hover:underline">Libros</a></Link></li>
                 <li><Link href="/blog"><a className="hover:underline">Blog</a></Link></li>
-                <li><Link href="/faq"><a className="hover:underline">FAQ</a></Link></li>
               </ul>
             </div>
             <div>
-              <h4 className="font-bold mb-4" style={{ color: '#4A403A' }}>
-                Síguenos
-              </h4>
+              <h4 className="font-bold mb-4" style={{ color: '#4A403A' }}>Síguenos</h4>
               <div className="flex gap-4">
-                {/* AQUI ESTAVAM OS LINKS FALTANDO */}
+                {/* Link Instagram Corrigido */}
                 <a 
-                  href="https://instagram.com/fundacionlumen" 
+                  href="https://instagram.com/fundacion.lumen" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:opacity-70 transition-opacity"
                 >
-                  <Instagram size={20} style={{ color: '#C25E3E' }} />
+                  <Instagram size={24} style={{ color: '#C25E3E' }} />
                 </a>
+                {/* Link TikTok Corrigido */}
                 <a 
-                  href="https://tiktok.com/@f.lumen" 
+                  href="https://www.tiktok.com/@f.lumen" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:opacity-70 transition-opacity"
                 >
-                  <Music size={20} style={{ color: '#C25E3E' }} />
+                  <Music size={24} style={{ color: '#C25E3E' }} />
                 </a>
               </div>
             </div>
             <div>
-              <h4 className="font-bold mb-4" style={{ color: '#4A403A' }}>
-                Contacto
-              </h4>
+              <h4 className="font-bold mb-4" style={{ color: '#4A403A' }}>Contacto</h4>
               <p className="text-sm font-light" style={{ color: '#4A403A' }}>
                 created@fundacionlumen.com
               </p>
