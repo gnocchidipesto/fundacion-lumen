@@ -69,9 +69,15 @@ export default function Contact() {
             Recibe actualizaciones sobre nuevos libros, eventos y reflexiones espirituales
           </p>
 
-          <form className="flex flex-col sm:flex-row gap-4">
+          {/* AQUI ESTÃO AS MUDANÇAS */}
+          <form 
+            action="https://formsubmit.co/created@fundacionlumen.com" 
+            method="POST" 
+            className="flex flex-col sm:flex-row gap-4"
+          >
             <input
               type="email"
+              name="email" 
               placeholder="Tu correo electrónico"
               className="flex-1 px-6 py-3 bg-background border border-border rounded-sm text-foreground placeholder-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary font-light"
               required
