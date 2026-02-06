@@ -69,12 +69,17 @@ export default function Contact() {
             Recibe actualizaciones sobre nuevos libros, eventos y reflexiones espirituales
           </p>
 
-          
+          {/* FORMULÁRIO COM AS CONFIGURAÇÕES EXTRAS */}
           <form 
             action="https://formsubmit.co/created@fundacionlumen.com" 
             method="POST" 
             className="flex flex-col sm:flex-row gap-4"
           >
+            {/* Configurações invisíveis do FormSubmit */}
+            <input type="hidden" name="_next" value="https://fundacionlumen.com/obrigado" />
+            <input type="hidden" name="_subject" value="Nuevo mensaje de Fundación Lumen!" />
+            <input type="hidden" name="_captcha" value="false" />
+
             <input
               type="email"
               name="email" 
