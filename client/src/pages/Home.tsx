@@ -88,11 +88,14 @@ export default function Home() {
     }
   };
 
+  // --- CAPAS DOS LIVROS ATUALIZADAS ---
+  // Já configurei para os nomes que você me passou
   const books = [
     {
       id: 1,
       title: 'El Susurro de la Conciencia',
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310419663029048072/ZFXBSHrUQQgILBsB.png',
+      // Imagem atualizada:
+      image: '/livro.elsusurro.jpg',
       link: 'https://letrame.com',
       description: 'El despertar',
       color: 'from-green-100 to-green-50'
@@ -100,7 +103,8 @@ export default function Home() {
     {
       id: 2,
       title: 'El Poder de la Gratitud',
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310419663029048072/LHgvzCDPgBfNCBgF.png',
+      // Imagem atualizada:
+      image: '/livro.elpoder.jpg',
       link: 'https://letrame.com',
       description: 'La integración',
       color: 'from-amber-100 to-amber-50'
@@ -108,7 +112,8 @@ export default function Home() {
     {
       id: 3,
       title: 'El Universo Consciente',
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310419663029048072/PZRpXFeXZvIjuMKQ.png',
+      // Imagem atualizada:
+      image: '/livro.eluniverso.jpg',
       link: 'https://amazon.com',
       description: 'La expansión',
       color: 'from-orange-100 to-orange-50'
@@ -149,10 +154,10 @@ export default function Home() {
         style={{ backgroundColor: isScrolled ? '#F5F1E8' : 'rgba(245, 241, 232, 0.95)' }}
       >
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-          {/* Logo */}
+          {/* Logo - ATUALIZADO */}
           <Link href="/">
             <a className="flex items-center gap-2 cursor-pointer">
-              <img src="/english.png" alt="Fundación Lumen" className="h-16 w-auto" />
+              <img src="/logo.png" alt="Fundación Lumen" className="h-24 w-auto object-contain" />
             </a>
           </Link>
 
